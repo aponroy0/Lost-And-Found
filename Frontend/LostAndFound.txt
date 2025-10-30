@@ -1,0 +1,14 @@
+Stage 1. Make DB tables and relations among them
+
+Tables--
+User
+UserId(PK), FullName, Email, Password, Phone, Role, 
+Report
+ItemId(PK), ItemName, Title, Description, CategoryId(FK), Status, ImageURL, LocationName, Latitude, Longitude, ContactInfo, PostedBy(UserId)(FK), IsClaimed, PostedDate, ClaimedDate
+Catagories
+CatagoryId(PK), CatagoryName
+Messages 
+MessageId(Pk), SenderId(FK), ReceiverId(FK), ItemId(FK), MessageBody, SentAt,
+IsRead
+Notifications
+NotificationId(PK), UserId(FK), Message, IsRead, CreatedAt
