@@ -11,6 +11,7 @@ namespace BLL.DTO
         public string TokenKey { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime? ExpiryDate { get; set; }
+        public string Name { get; set; }
         public int UserId { get; set; }
     }
 }

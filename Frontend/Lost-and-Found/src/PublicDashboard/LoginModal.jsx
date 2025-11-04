@@ -1,13 +1,13 @@
+import Cookies from "js-cookie";
 import { X } from "lucide-react";
 import { useState } from "react";
-import Cookies from "js-cookie";
 import { useNavigate } from "react-router-dom";
 
 function LoginModal({ onClose }) {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     Email: "",
-    Password: "",
+    HashPassword: "",
   });
 
   const handleChange = (e) => {
@@ -29,9 +29,15 @@ function LoginModal({ onClose }) {
         },
         body: JSON.stringify(formData),
       });
-
-      Cookies.set("token", res.TokenKey, { expires: 1 / 1440, secure: true });
-      Cookies.set("userID", JSON.stringify(res.UserId), { expires: 1 / 1440});
+      const data = await res.json();
+      Cookies.set("token", data.TokenKey, {
+        expires: 10 / 1440,
+        secure: false,
+      });
+      Cookies.set("userID", JSON.stringify(data.UserId), {
+        expires: 10 / 1440,
+      });
+      Cookies.set("name", JSON.stringify(data.Name), { expires: 10 / 1440 });
 
       if (res) navigate("/");
     } catch (error) {
@@ -41,11 +47,6 @@ function LoginModal({ onClose }) {
 
   const handleGoogleLogin = () => {
     console.log("Google login clicked");
-  };
-
-  // onClose to redirect to home page
-  const handleClose = () => {
-    if (onClose) onClose();
   };
 
   return (
@@ -59,7 +60,7 @@ function LoginModal({ onClose }) {
         <div className="flex justify-between items-center p-4 border-b border-gray-700">
           <h2 className="text-xl font-bold text-white">Login</h2>
           <button
-            onClick={handleClose}
+            onClick={onClose}
             className="text-gray-300 hover:text-white transition"
           >
             <X size={22} />
@@ -100,7 +101,7 @@ function LoginModal({ onClose }) {
               <input
                 type="password"
                 id="PasswordID"
-                name="Password"
+                name="HashPassword"
                 value={formData.Password}
                 onChange={handleChange}
                 required

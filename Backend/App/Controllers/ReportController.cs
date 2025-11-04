@@ -128,5 +128,43 @@ namespace App.Controllers
                 return Request.CreateResponse(HttpStatusCode.BadRequest, "Searching failed! ");
             }
         }
+        [HttpGet]
+        [Route("lostitems")]
+        public HttpResponseMessage lostItems ()
+        {
+            var data = LostAndFoundService.LostItems();
+            try
+            {
+                if(data != null)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, data);
+                }
+                return Request.CreateResponse(HttpStatusCode.BadRequest, "No lost items found! ");
+            }
+
+            catch(Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
+            }
+        }
+
+        [HttpGet]
+        [Route("founditems")]
+        public HttpResponseMessage foundItems()
+        {
+            var data = LostAndFoundService.FoundItems();
+            try
+            {
+                if (data != null)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, data);
+                }
+                return Request.CreateResponse(HttpStatusCode.BadRequest, "No found items found! ");
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
+            }
+        }
     }
 }

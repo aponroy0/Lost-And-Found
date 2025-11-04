@@ -2,9 +2,9 @@ import { X, Mail } from 'lucide-react';
 
 function ItemModal({ item, onClose }) {
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black/60 backdrop-blur-sm z-50">
+    <div className="fixed inset-0 flex items-center justify-center bg-black/60 backdrop-blur-sm z-50 ">
       <div
-        className="rounded-3xl shadow-2xl w-[65%] h-[55%] overflow-hidden flex flex-col"
+        className="rounded-xl shadow-2xl w-[55%] h-45vh overflow-hidden flex flex-col"
         style={{ backgroundColor: 'oklch(27.8% 0.033 256.848)' }}
       >
         {/* Header */}
@@ -16,9 +16,9 @@ function ItemModal({ item, onClose }) {
         </div>
 
         {/* Content */}
-        <div className="flex flex-1">
+        <div className="flex flex-1" >
           {/* Left Side - Image */}
-          <div className="w-1/2 h-full">
+          <div className="w-1/2 h-full px-2 py-2" >
             <img
               src={item.ImageURL}
               alt={item.ItemName}
@@ -27,14 +27,14 @@ function ItemModal({ item, onClose }) {
           </div>
 
           {/* Right Side - Details */}
-          <div className="w-1/2 p-6 text-gray-200 space-y-3 overflow-y-auto">
+          <div className="w-1/2 p-2 text-gray-200 space-y-3 overflow-y-auto p-8">
             <p><strong>Item Name:</strong> {item.ItemName}</p>
             <p><strong>Location:</strong> {item.LocationName}</p>
             <p><strong>Description:</strong> {item.Description}</p>
             <p>
               <strong>Status:</strong>{' '}
               <span
-                className={`px-2 py-1 rounded-full text-xs font-semibold ${
+                className={`px-2 py-1 rounded-sm text-xs font-semibold ${
                   item.Status?.toLowerCase() === 'lost'
                     ? 'bg-red-900 text-red-200'
                     : 'bg-green-900 text-green-200'
@@ -43,7 +43,7 @@ function ItemModal({ item, onClose }) {
                 {item.Status}
               </span>
             </p>
-            <p><strong>Posted At:</strong> {item.PostedAt}</p>
+            <p><strong>Posted At:</strong> {new Date(item.PostedAt).toLocaleString()}</p>
           </div>
         </div>
 
@@ -52,7 +52,7 @@ function ItemModal({ item, onClose }) {
           {/* Contact Button */}
           <a
             href={`mailto:owner@example.com?subject=Inquiry about ${encodeURIComponent(item.ItemName)}`}
-            className="flex items-center gap-2 px-5 py-2 bg-green-600 hover:bg-green-700 rounded-lg text-white font-semibold transition"
+            className="flex items-center gap-2 px-5 py-2 bg-slate-700 hover:bg-slate-600 rounded-lg text-white font-semibold transition"
           >
             <Mail size={18} />
             Contact
@@ -61,9 +61,9 @@ function ItemModal({ item, onClose }) {
           {/* Close Button */}
           <button
             onClick={onClose}
-            className="px-5 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg text-white font-semibold transition"
+            className="px-5 py-2 bg-slate-700 hover:bg-slate-600 rounded-lg text-white font-semibold transition"
           >
-            Close
+            Message
           </button>
         </div>
       </div>

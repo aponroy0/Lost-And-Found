@@ -1,24 +1,37 @@
-import { AlertCircle } from 'lucide-react';
-import { Link, useNavigate } from 'react-router-dom';
 import Cookies from "js-cookie";
+import { AlertCircle } from "lucide-react";
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
-function Header({ searchTerm, setSearchTerm }) {
+function Header() {
   const navigate = useNavigate();
   const Token = Cookies.get("token");
+  const [isLogged, setLogged] = useState(true);
 
   const handleLogout = () => {
     Cookies.remove("token");
     Cookies.remove("userID");
+    Cookies.remove("name");
+
+    setLogged(false);
+
     navigate("/"); // redirect to home after logout
   };
 
   const handleSignup = () => {
+    setLogged(true);
     navigate("/register"); // go to signup page
   };
 
+  // For handling the lost portion
+  // const handleLost = function ()
+  // {
+
+  // }
+
   return (
     <header
-      style={{ backgroundColor: 'oklch(37.3% 0.034 259.733)' }}
+      style={{ backgroundColor: "oklch(37.3% 0.034 259.733)" }}
       className="text-white shadow-lg sticky top-0 z-50"
     >
       <div className="flex items-center justify-between px-6 py-2">
@@ -30,10 +43,24 @@ function Header({ searchTerm, setSearchTerm }) {
 
         {/* Center - Navigation Links */}
         <nav className="flex gap-8 text-sm items-center justify-center flex-1">
-          <Link to="/" className="hover:text-blue-300 transition">Home</Link>
-          <Link to="/lost" className="hover:text-blue-300 transition">Lost</Link>
-          <Link to="/found" className="hover:text-blue-300 transition">Found</Link>
-          <Link to="/about" className="hover:text-blue-300 transition">About</Link>
+          <Link to="/" className="hover:text-blue-300 transition">
+            Home
+          </Link>
+          {/* <button
+            // onClick={handleLost}
+            className="hover:text-blue-300 transition"
+          >
+            Lost
+          </button>
+          <button
+            // onClick={handleFound}
+            className="hover:text-blue-300 transition"
+          >
+            Found
+          </button> */}
+          <Link to="/about" className="hover:text-blue-300 transition">
+            About
+          </Link>
         </nav>
 
         {/* Right - Report + Auth Buttons */}
@@ -47,7 +74,7 @@ function Header({ searchTerm, setSearchTerm }) {
             </Link>
           )}
 
-          {Token ? (
+          {Token && isLogged ? (
             <button
               onClick={handleLogout}
               className="inline-flex items-center justify-center border border-white bg-slate-800 hover:bg-gray-900 px-4 py-1.5 rounded-lg transition font-medium whitespace-nowrap"

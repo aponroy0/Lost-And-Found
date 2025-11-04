@@ -8,7 +8,7 @@ function Login() {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     Email: '',
-    Password: '',
+    HashPassword: '',
   });
 
   const handleChange = (e) => {
@@ -31,9 +31,19 @@ function Login() {
         },
         body: JSON.stringify(formData),
       });
+      /*
+      Learning from here,
+      http always returns response object that includes (status, header, body).
+      After getting the response we must convert it inot JSOB OBJECT. { key: value}.
+      And whenever we store json objets value into cookies, we have to convert it into string as well. 
+      Cause cookies only stores string.
+      */
       
-     Cookies.set("token", res.TokenKey, {expires:1 / 1440, secure:true});
-     Cookies.set("userID", JSON.stringify(res.UserId), {expires:1 / 1440});
+     const data = await res.json();
+     console.log(data);
+     Cookies.set("token", data.TokenKey, {expires:10 / 1440, secure:false});
+     Cookies.set("userID", JSON.stringify(data.UserId), {expires:10 / 1440});
+     Cookies.set("name", JSON.stringify(data.Name), {expires:10/1440})
 
       if(res)
       {
@@ -95,7 +105,7 @@ function Login() {
             <input
               type="password"
               id="PasswordID"
-              name="Password"
+              name="HashPassword"
               value={formData.Password}
               onChange={handleChange}
               required

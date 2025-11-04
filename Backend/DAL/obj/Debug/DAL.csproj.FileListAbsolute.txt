@@ -33,3 +33,4 @@ C:\Users\LENOVO\Desktop\Lost And Found\Backend\DAL\obj\Debug\DAL.pdb
 C:\Users\LENOVO\Desktop\Lost And Found\Backend\DAL\obj\Debug\DAL.Migrations.TokenTable.resources
 C:\Users\LENOVO\Desktop\Lost And Found\Backend\DAL\obj\Debug\DAL.Migrations.EdittedUserIdfromToken.resources
 C:\Users\LENOVO\Desktop\Lost And Found\Backend\DAL\obj\Debug\DAL.Migrations.EdittedUserIdfromToken2.resources
+C:\Users\LENOVO\Desktop\Lost And Found\Backend\DAL\obj\Debug\DAL.Migrations.AddNameToken.resources

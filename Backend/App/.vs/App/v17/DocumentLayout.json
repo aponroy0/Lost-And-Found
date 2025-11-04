@@ -3,8 +3,45 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\App\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D617DDE6-344B-4981-BC79-A3705D18AAA7}|App.csproj|C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\App\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D617DDE6-344B-4981-BC79-A3705D18AAA7}|App.csproj|solutionrelative:controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB5025E1-FBA3-4FDA-93EF-DBAB2B80FA71}|..\\BLL\\BLL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\bll\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB5025E1-FBA3-4FDA-93EF-DBAB2B80FA71}|..\\BLL\\BLL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\bll\\services\\lostandfoundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2125FA-329A-431F-86A5-753DDF9B221D}|..\\DAL\\DAL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\dal\\ef\\tables\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2125FA-329A-431F-86A5-753DDF9B221D}|..\\DAL\\DAL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\dal\\ef\\tables\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2125FA-329A-431F-86A5-753DDF9B221D}|..\\DAL\\DAL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\dal\\repos\\dbrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2125FA-329A-431F-86A5-753DDF9B221D}|..\\DAL\\DAL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\dal\\repos\\tokenrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB5025E1-FBA3-4FDA-93EF-DBAB2B80FA71}|..\\BLL\\BLL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB5025E1-FBA3-4FDA-93EF-DBAB2B80FA71}|..\\BLL\\BLL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\bll\\dto\\lostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB5025E1-FBA3-4FDA-93EF-DBAB2B80FA71}|..\\BLL\\BLL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\bll\\dto\\founddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB5025E1-FBA3-4FDA-93EF-DBAB2B80FA71}|..\\BLL\\BLL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\bll\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D617DDE6-344B-4981-BC79-A3705D18AAA7}|App.csproj|C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\App\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D617DDE6-344B-4981-BC79-A3705D18AAA7}|App.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2125FA-329A-431F-86A5-753DDF9B221D}|..\\DAL\\DAL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\dal\\ef\\tables\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB5025E1-FBA3-4FDA-93EF-DBAB2B80FA71}|..\\BLL\\BLL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\bll\\dto\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -13,28 +50,13 @@
       "AbsoluteMoniker": "D:0:0:{8C2125FA-329A-431F-86A5-753DDF9B221D}|..\\DAL\\DAL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\dal\\migrations\\202510291906527_editted userid from token -2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C2125FA-329A-431F-86A5-753DDF9B221D}|..\\DAL\\DAL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\dal\\ef\\tables\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB5025E1-FBA3-4FDA-93EF-DBAB2B80FA71}|..\\BLL\\BLL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8C2125FA-329A-431F-86A5-753DDF9B221D}|..\\DAL\\DAL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C2125FA-329A-431F-86A5-753DDF9B221D}|..\\DAL\\DAL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C2125FA-329A-431F-86A5-753DDF9B221D}|..\\DAL\\DAL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\dal\\repos\\tokenrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AB5025E1-FBA3-4FDA-93EF-DBAB2B80FA71}|..\\BLL\\BLL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB5025E1-FBA3-4FDA-93EF-DBAB2B80FA71}|..\\BLL\\BLL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\bll\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB5025E1-FBA3-4FDA-93EF-DBAB2B80FA71}|..\\BLL\\BLL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\bll\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C2125FA-329A-431F-86A5-753DDF9B221D}|..\\DAL\\DAL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\dal\\repos\\rolerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -43,26 +65,13 @@
       "AbsoluteMoniker": "D:0:0:{8C2125FA-329A-431F-86A5-753DDF9B221D}|..\\DAL\\DAL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\dal\\repos\\reportrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C2125FA-329A-431F-86A5-753DDF9B221D}|..\\DAL\\DAL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\dal\\repos\\dbrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8C2125FA-329A-431F-86A5-753DDF9B221D}|..\\DAL\\DAL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\dal\\repos\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C2125FA-329A-431F-86A5-753DDF9B221D}|..\\DAL\\DAL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\dal\\interfaces\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C2125FA-329A-431F-86A5-753DDF9B221D}|..\\DAL\\DAL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\dal\\ef\\tables\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C2125FA-329A-431F-86A5-753DDF9B221D}|..\\DAL\\DAL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\dal\\ef\\tables\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8C2125FA-329A-431F-86A5-753DDF9B221D}|..\\DAL\\DAL.csproj|c:\\users\\lenovo\\desktop\\lost and found\\backend\\dal\\ef\\maincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D617DDE6-344B-4981-BC79-A3705D18AAA7}|App.csproj|C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\App\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D617DDE6-344B-4981-BC79-A3705D18AAA7}|App.csproj|solutionrelative:controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LENOVO\\Desktop\\Dot Net\\Lost_And_Found\\DAL\\EF\\Tables\\Report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -81,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -92,166 +101,85 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RoleRepo.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Repos\\RoleRepo.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repos\\RoleRepo.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Repos\\RoleRepo.cs",
-              "RelativeToolTip": "..\\DAL\\Repos\\RoleRepo.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwBMAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T16:44:39.265Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserRepo.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Repos\\UserRepo.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repos\\UserRepo.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Repos\\UserRepo.cs",
-              "RelativeToolTip": "..\\DAL\\Repos\\UserRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAATAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "LostAndFoundService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\Services\\LostAndFoundService.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\Services\\LostAndFoundService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\Services\\LostAndFoundService.cs",
+              "RelativeToolTip": "..\\BLL\\Services\\LostAndFoundService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwCAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T16:27:11.625Z"
+              "WhenOpened": "2025-10-31T16:53:10.815Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "..\\BLL\\Services\\AuthService.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\Services\\AuthService.cs",
               "RelativeToolTip": "..\\BLL\\Services\\AuthService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCAAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-29T16:39:27.898Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\Services\\UserService.cs",
-              "RelativeToolTip": "..\\BLL\\Services\\UserService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T16:38:52.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\App\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\App\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwC8AAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T19:12:29.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "DataAccessFactory.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\DataAccessFactory.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\DataAccessFactory.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\DataAccessFactory.cs",
-              "RelativeToolTip": "..\\DAL\\DataAccessFactory.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAnwCkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T16:32:05.906Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TokenDTO.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\DTO\\TokenDTO.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\DTO\\TokenDTO.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\DTO\\TokenDTO.cs",
-              "RelativeToolTip": "..\\BLL\\DTO\\TokenDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAgwAwAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T17:23:37.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "202510291906527_Editted UserId from Token -2.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Migrations\\202510291906527_Editted UserId from Token -2.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Migrations\\202510291906527_Editted UserId from Token -2.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Migrations\\202510291906527_Editted UserId from Token -2.cs",
-              "RelativeToolTip": "..\\DAL\\Migrations\\202510291906527_Editted UserId from Token -2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T19:06:57.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Token.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\EF\\Tables\\Token.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\EF\\Tables\\Token.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\EF\\Tables\\Token.cs",
-              "RelativeToolTip": "..\\DAL\\EF\\Tables\\Token.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAIwBAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T16:44:32.21Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "TokenRepo.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Repos\\TokenRepo.cs",
               "RelativeDocumentMoniker": "..\\DAL\\Repos\\TokenRepo.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Repos\\TokenRepo.cs",
               "RelativeToolTip": "..\\DAL\\Repos\\TokenRepo.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAsAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-29T16:52:56.539Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ReportService.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\Services\\ReportService.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\Services\\ReportService.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\Services\\ReportService.cs",
-              "RelativeToolTip": "..\\BLL\\Services\\ReportService.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAowBEAAABSAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Report.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\EF\\Tables\\Report.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\EF\\Tables\\Report.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\EF\\Tables\\Report.cs",
+              "RelativeToolTip": "..\\DAL\\EF\\Tables\\Report.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T17:34:07.015Z"
+              "WhenOpened": "2025-10-29T17:31:40.382Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\DTO\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\DTO\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\DTO\\LoginDTO.cs",
-              "RelativeToolTip": "..\\BLL\\DTO\\LoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\App\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReportController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\App\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "Controllers\\ReportController.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAqwIsAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T17:37:59.025Z"
+              "WhenOpened": "2025-10-18T07:54:08.065Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "ReportRepo.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Repos\\ReportRepo.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repos\\ReportRepo.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Repos\\ReportRepo.cs",
-              "RelativeToolTip": "..\\DAL\\Repos\\ReportRepo.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCgAAABIAAAAAAAAAA==",
+              "Title": "Token.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\EF\\Tables\\Token.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\EF\\Tables\\Token.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\EF\\Tables\\Token.cs",
+              "RelativeToolTip": "..\\DAL\\EF\\Tables\\Token.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T16:44:59.236Z"
+              "WhenOpened": "2025-10-29T16:44:32.21Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 5,
               "Title": "DBRepo.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Repos\\DBRepo.cs",
               "RelativeDocumentMoniker": "..\\DAL\\Repos\\DBRepo.cs",
@@ -263,31 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CategoryRepo.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Repos\\CategoryRepo.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Repos\\CategoryRepo.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Repos\\CategoryRepo.cs",
-              "RelativeToolTip": "..\\DAL\\Repos\\CategoryRepo.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAA3wCoAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T16:45:34.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IAuth.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Interfaces\\IAuth.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Interfaces\\IAuth.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Interfaces\\IAuth.cs",
-              "RelativeToolTip": "..\\DAL\\Interfaces\\IAuth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T16:25:20.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 4,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\EF\\Tables\\Category.cs",
               "RelativeDocumentMoniker": "..\\DAL\\EF\\Tables\\Category.cs",
@@ -299,19 +203,176 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Report.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\EF\\Tables\\Report.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\EF\\Tables\\Report.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\EF\\Tables\\Report.cs",
-              "RelativeToolTip": "..\\DAL\\EF\\Tables\\Report.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\Services\\ReportService.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\Services\\ReportService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\Services\\ReportService.cs",
+              "RelativeToolTip": "..\\BLL\\Services\\ReportService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwEUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T17:31:40.382Z"
+              "WhenOpened": "2025-10-29T17:34:07.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LostDTO.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\DTO\\LostDTO.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\DTO\\LostDTO.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\DTO\\LostDTO.cs",
+              "RelativeToolTip": "..\\BLL\\DTO\\LostDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:59:34.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FoundDTO.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\DTO\\FoundDTO.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\DTO\\FoundDTO.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\DTO\\FoundDTO.cs",
+              "RelativeToolTip": "..\\BLL\\DTO\\FoundDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T17:05:38.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TokenDTO.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\DTO\\TokenDTO.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\DTO\\TokenDTO.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\DTO\\TokenDTO.cs",
+              "RelativeToolTip": "..\\BLL\\DTO\\TokenDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T17:23:37.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DataAccessFactory.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\DataAccessFactory.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\DataAccessFactory.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\DataAccessFactory.cs",
+              "RelativeToolTip": "..\\DAL\\DataAccessFactory.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAnwCkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:32:05.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "..\\BLL\\DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T17:37:59.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\App\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\App\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwC8AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T19:12:29.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\BLL\\Services\\UserService.cs",
+              "RelativeToolTip": "..\\BLL\\Services\\UserService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:38:52.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Repos\\UserRepo.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Repos\\UserRepo.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Repos\\UserRepo.cs",
+              "RelativeToolTip": "..\\DAL\\Repos\\UserRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:27:11.625Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "RoleRepo.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Repos\\RoleRepo.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Repos\\RoleRepo.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Repos\\RoleRepo.cs",
+              "RelativeToolTip": "..\\DAL\\Repos\\RoleRepo.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwBMAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:44:39.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "202510291906527_Editted UserId from Token -2.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Migrations\\202510291906527_Editted UserId from Token -2.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Migrations\\202510291906527_Editted UserId from Token -2.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Migrations\\202510291906527_Editted UserId from Token -2.cs",
+              "RelativeToolTip": "..\\DAL\\Migrations\\202510291906527_Editted UserId from Token -2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:06:57.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ReportRepo.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Repos\\ReportRepo.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Repos\\ReportRepo.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Repos\\ReportRepo.cs",
+              "RelativeToolTip": "..\\DAL\\Repos\\ReportRepo.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:44:59.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CategoryRepo.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Repos\\CategoryRepo.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Repos\\CategoryRepo.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Repos\\CategoryRepo.cs",
+              "RelativeToolTip": "..\\DAL\\Repos\\CategoryRepo.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA3wCoAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:45:34.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IAuth.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Interfaces\\IAuth.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Interfaces\\IAuth.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\Interfaces\\IAuth.cs",
+              "RelativeToolTip": "..\\DAL\\Interfaces\\IAuth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:25:20.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "MainContext.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\DAL\\EF\\MainContext.cs",
               "RelativeDocumentMoniker": "..\\DAL\\EF\\MainContext.cs",
@@ -323,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "ReportService.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Dot Net\\Lost_And_Found\\BLL\\Services\\ReportService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Dot Net\\Lost_And_Found\\BLL\\Services\\ReportService.cs",
@@ -334,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "CreateReportDTO.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Dot Net\\Lost_And_Found\\BLL\\DTO\\CreateReportDTO.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Dot Net\\Lost_And_Found\\BLL\\DTO\\CreateReportDTO.cs",
@@ -345,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Report.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Dot Net\\Lost_And_Found\\DAL\\EF\\Tables\\Report.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Dot Net\\Lost_And_Found\\DAL\\EF\\Tables\\Report.cs",
@@ -353,18 +414,6 @@
               "RelativeToolTip": "..\\..\\..\\Dot Net\\Lost_And_Found\\DAL\\EF\\Tables\\Report.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-18T07:48:40.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ReportController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\App\\Controllers\\ReportController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ReportController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Lost And Found\\Backend\\App\\Controllers\\ReportController.cs",
-              "RelativeToolTip": "Controllers\\ReportController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwBYAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T07:54:08.065Z"
             }
           ]
         }

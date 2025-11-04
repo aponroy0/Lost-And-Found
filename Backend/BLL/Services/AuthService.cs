@@ -28,6 +28,7 @@ namespace BLL.Services
                 var token = new Token();
                 token.UserId = userData.UserId;
                 token.TokenKey = Guid.NewGuid().ToString();
+                token.Name = userData.Name;
                 token.CreatedAt = DateTime.Now;
 
                 var response = DataAccessFactory.TokenData().CREATE(token);
