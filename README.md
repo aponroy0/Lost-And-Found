@@ -55,7 +55,7 @@ The application uses a **common header and footer** across all pages and is orga
 
 ### Screenshot
 
-![Dashboard Page](./public/Public-2.png)
+![Dashboard Page](public/Public-2.png)
 
 </br>
 
@@ -73,7 +73,7 @@ The application uses a **common header and footer** across all pages and is orga
 
 ### Screenshot
 
-![Map-Based Item Visualization](./public/Map_with_Lost_Found.png)
+![Map-Based Item Visualization](public/Map_with_Lost_Found.png)
 
 </br>
 
@@ -89,7 +89,7 @@ The application uses a **common header and footer** across all pages and is orga
 
 ### Screenshot
 
-![Search Functionality](./public/Search.png)
+![Search Functionality](public/Search.png)
 
 </br>
 
@@ -102,7 +102,7 @@ The application uses a **common header and footer** across all pages and is orga
 
 ### Screenshot
 
-![Sign Up Page](./public/Registration.png)
+![Sign Up Page](public/Registration.png)
 
 ### Login Modal
 
@@ -115,7 +115,7 @@ The application uses a **common header and footer** across all pages and is orga
 
 ### Screenshot
 
-![Login Modal](./public/Login.png)
+![Login Modal](public/Login.png)
 
 </br>
 
@@ -132,7 +132,7 @@ The application uses a **common header and footer** across all pages and is orga
 
 ### Screenshot
 
-![Report Page](./public/Report.png)
+![Report Page](public/Report.png)
 
 </br>
 
