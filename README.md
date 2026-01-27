@@ -33,7 +33,6 @@ The application uses a **common header and footer** across all pages and is orga
 
 - Shared **header and footer** across the application
 - Top-right corner contains:
-
   - **Sign Up** button (before login)
   - **Report** and **Logout** buttons (after login)
 
@@ -55,7 +54,7 @@ The application uses a **common header and footer** across all pages and is orga
 
 ### Screenshot
 
-![Dashboard Page](public/public-2.png)
+![Dashboard Page](images/public-2.png)
 
 </br>
 
@@ -64,7 +63,6 @@ The application uses a **common header and footer** across all pages and is orga
 - Implemented using **Leaflet** and **OpenStreetMap**
 - Items are marked based on their location
 - Clicking a marker shows:
-
   - Item name
   - Description
   - Status (Lost / Found)
@@ -73,7 +71,7 @@ The application uses a **common header and footer** across all pages and is orga
 
 ### Screenshot
 
-![Map-Based Item Visualization](public/map_with_Lost_Found.png)
+![Map-Based Item Visualization](images/map_with_Lost_Found.png)
 
 </br>
 
@@ -81,7 +79,6 @@ The application uses a **common header and footer** across all pages and is orga
 
 - Search bar available at the top of the dashboard
 - Users can search for:
-
   - Product name
   - Keywords related to the item
 
@@ -89,7 +86,7 @@ The application uses a **common header and footer** across all pages and is orga
 
 ### Screenshot
 
-![Search Functionality](public/search.png)
+![Search Functionality](images/search.png)
 
 </br>
 
@@ -102,20 +99,19 @@ The application uses a **common header and footer** across all pages and is orga
 
 ### Screenshot
 
-![Sign Up Page](public/registration.png)
+![Sign Up Page](images/registration.png)
 
 ### Login Modal
 
 - Login handled via a modal
 - Users must log in to:
-
   - View item details
   - Report lost or found items
   - Contact other users
 
 ### Screenshot
 
-![Login Modal](public/login.png)
+![Login Modal](images/login.png)
 
 </br>
 
@@ -123,7 +119,6 @@ The application uses a **common header and footer** across all pages and is orga
 
 - Accessible via **Report** button (top-right)
 - Users can:
-
   - Report a lost item
   - Report a found item
   - Add item details and location on the map
@@ -132,7 +127,7 @@ The application uses a **common header and footer** across all pages and is orga
 
 ### Screenshot
 
-![Report Page](public/report.png)
+![Report Page](images/report.png)
 
 </br>
 
